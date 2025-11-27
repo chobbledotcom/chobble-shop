@@ -1,4 +1,5 @@
 ---
+header_image:
 header_text: Not Found
 meta_description:
 meta_title: Not Found
