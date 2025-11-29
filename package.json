@@ -12,5 +12,7 @@
 		"fetch-google-reviews": "node scripts/fetch-google-reviews.js",
 		"clean": "rm -rf .build _site"
 	},
-	"devDependencies": {}
+	"dependencies": {
+		"esbuild": "^0.27.0"
+	}
 }
