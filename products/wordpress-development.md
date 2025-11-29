@@ -1,6 +1,7 @@
 ---
 title: WordPress Development
 featured: true
+price: Quote for price
 categories:
   - categories/web-development.md
 ---

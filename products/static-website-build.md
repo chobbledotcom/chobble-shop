@@ -1,6 +1,7 @@
 ---
 title: Static Website Build
 featured: true
+price: From £400
 categories:
   - categories/web-development.md
 ---
