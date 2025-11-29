@@ -28,7 +28,7 @@ jobs:
           sparse-checkout: |
             .eleventy.js
             package.json
-            package-lock.json
+            pnpm-lock.yaml
             flake.nix
             flake.lock
             bin
