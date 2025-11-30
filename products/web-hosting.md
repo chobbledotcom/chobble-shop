@@ -1,11 +1,13 @@
 ---
 title: Web Hosting
-featured: true
-price: From £10/month
 categories:
   - categories/web-development.md
+options:
+  - name: £10 per month (x12 months)
+    max_quantity: 1
+    unit_price: 120
+price: From £10/month
 ---
-
 Hosting a static site can be really cheap - just a few £s per month should be enough for the majority of sites. This means that my pricing really comes down to whether you want support or not:
 
 ## Support included
