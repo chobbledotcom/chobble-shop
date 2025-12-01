@@ -1,0 +1,7 @@
+---
+name: SJ's Leisure
+url: https://www.google.com/maps/contrib/113518689806971564838?hl=en-US
+rating: 5
+---
+
+Stefan has always been very helpful and knowledgeable regarding websites and SEO since we first met him, probably around 2013. It was a no brainer to work with him when he started Chobble as the tips and information provided are extremely helpful.
