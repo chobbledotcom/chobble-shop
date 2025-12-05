@@ -13,3 +13,5 @@ We'll work together to figure out a sustainable, long-term approach to improving
 In my decades of nerdery I have seen thousands of small business websites. We can apply my experience to your site's content to help smooth the path between a customer finding you on Google, and giving you some money.
 
 These steps won't be anything complicated or technical and you won't have to learn anything tricky, and the price includes explaining my report to you.
+
+The cost is **£200** and I'll have the report ready for you within **48 hours**.
