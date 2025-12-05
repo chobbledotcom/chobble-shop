@@ -1,10 +1,13 @@
 ---
 title: SEO Audit
-featured: true
 categories:
   - categories/seo-marketing.md
+options:
+  - name: SEO Audit
+    max_quantity: 1
+    unit_price: 200
+price: £200
 ---
-
 I'll analyse your site and give you a report, written in plain English, explaining how you can improve its content.
 
 Improving a webpage's content will help that page rank for relevent search terms, and should convert more of its visitors into sales.
