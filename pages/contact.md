@@ -1,11 +1,12 @@
 ---
-header_text: Contact Example
+header_text: Contact Chobble
 meta_title: Contact
 eleventyNavigation:
   key: Contact
   order: 5
 layout: contact.html
 ---
+# Contact Stef at Chobble
 
 It's easy to get in touch with me:
 
