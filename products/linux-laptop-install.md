@@ -6,7 +6,7 @@ options:
   - name: Ubuntu Linux install (no backup or restores)
     max_quantity: 5
     unit_price: 200
-  - name: Ubuntu Linux install, with file backup and restore
+  - name: Ubuntu Linux install, w/ backup & restore
     max_quantity: 4
     unit_price: 600
 ---
