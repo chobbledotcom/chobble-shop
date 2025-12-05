@@ -1,16 +1,11 @@
 {
-	"name": "Chobble Web & Software Shop",
-	"url": "https://shop.chobble.com",
-	"socials": {
-		"Facebook": "https://www.facebook.com/ChobbleDotCom",
-		"Instagram": null,
-		"TikTok": null,
-		"Google": null,
-		"WhatsApp": null,
-		"RSS": null
-	},
-	"sticky_mobile_nav": true,
-	"horizontal_nav": true,
-	"google_place_id": "ChIJkUbKXSqve0gRaqWxtHQ0Q1o",
-	"template_repo_url": "https://git.chobble.com/chobble/chobble-client"
+  "name": "Chobble Web & Software Shop",
+  "url": "https://shop.chobble.com",
+  "socials": {
+    "Github": "https://github.com/chobbledotcom",
+    "Forgejo": "https://git.chobble.com",
+    "Facebook": "https://www.facebook.com/ChobbleDotCom",
+    "Google": "https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8",
+    "WhatsApp": "https://wa.me/message/EQIAROIMOOZPH1"
+  }
 }
