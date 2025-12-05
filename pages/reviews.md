@@ -1,14 +1,11 @@
 ---
-header_image:
 header_text: Reviews
-meta_description:
 meta_title: Reviews
-layout: reviews.html
 eleventyNavigation:
   key: Reviews
   order: 4
+layout: reviews.html
 ---
+## Reviews of Chobble
 
-## Sed in eros velit
-
-In in ante nec ante interdum consectetur. Sed finibus enim eget nulla euismod tincidunt et ac sapien. Aenean commodo, ligula sit amet imperdiet vehicula, felis dolor convallis nulla, at venenatis nisl ipsum convallis dolor.
+The below reviews are all taken from [my Google Maps listing](https://maps.app.goo.gl/kNqgHRNaMgPDp7Mo8) and are automatically imported to this site, which could automatically happen on your site too if you got me to build you one!
