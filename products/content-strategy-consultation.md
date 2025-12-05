@@ -6,6 +6,7 @@ options:
   - name: Content Audit
     max_quantity: 1
     unit_price: 200
+price: £200
 ---
 We'll work together to figure out a sustainable, long-term approach to improving your site's content. This can involve the use of AI, or not - whichever you prefer. Either way, we'll come up with a set of content guidelines that you can rely on and build upon.
 
