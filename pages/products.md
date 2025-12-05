@@ -1,15 +1,12 @@
 ---
-header_image:
 header_text: Products
-meta_description:
 meta_title: Products
-layout: products.html
-permalink: "/{{ strings.product_permalink_dir }}/"
 eleventyNavigation:
   key: Products
   order: 3
+layout: products.html
+permalink: /{{ strings.product_permalink_dir }}/
 ---
+# Web & Software Products
 
-# Our Products
-
-Suspendisse sit amet gravida turpis, ac tincidunt ex. Etiam ac justo elit. Donec libero ex, egestas et tempor non, egestas hendrerit neque.
+I can help out with much more than the things listed below, but these are the ones that are really easily priced. For more complex jobs, [contact me](/contact/).
