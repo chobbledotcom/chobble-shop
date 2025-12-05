@@ -1,29 +1,54 @@
-// 90s Computer Theme - Windows 95/98 teal and gray
+@font-face {
+  font-family: "Bayland";
+  src:
+    url("/assets/fonts/Bayland.woff2") format("woff2"),
+    url("/assets/fonts/Bayland.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  // Layout
   --width-content: 1300px;
 
-  // Colors - Windows 95/98 teal and gray
   --color-bg: #008080;
-  --color-bg-secondary: #c0c0c0;
+  --color-bg-secondary: rgba(255, 247, 240, 0.831372549);
   --color-text: #222222;
-  --color-link: #0000ff;
-  --header-text-color: #222222;
-  --form-input-bg-color: #c0c0c0;
+  --color-link: #561d68;
+  --header-text-color: #561d68;
+  --form-input-bg-color: #561d68;
+  --main-heading-color: #561d68;
+  --form-input-text-color: #eee;
 
-  // Borders - Classic Windows 3D beveled look
-  --border: 2px outset #c0c0c0;
-  --border-radius: 0;
-  --box-shadow: inset -1px -1px #000000, inset 1px 1px #ffffff;
-  --form-button-border: 2px outset #c0c0c0;
-  --form-button-hover-border: 2px inset #c0c0c0;
+  --border-radius: 3px;
+  --box-shadow: none;
 
-  // Fonts - Classic Windows system fonts
-  --font-family-heading:
-    Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
   --font-family-body: system-ui, sans-serif;
   --line-height: 1.3;
   --link-decoration: underline;
   --link-decoration-hover: underline;
   --link-decoration-style: solid;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #561d68;
+  background-image: url("/assets/cubes.png"), linear-gradient(#561d68, #2f0c3a);
+  background-attachment: fixed;
+}
+
+article#content,
+header {
+  h1,
+  h2,
+  h3 {
+    font-family: "Bayland", sans-serif;
+    color: #d56c10;
+    text-shadow: 1px 1px 0 white;
+  }
 }

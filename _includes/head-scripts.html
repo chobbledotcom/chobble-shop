@@ -1,0 +1,25 @@
+<script>
+  window.goatcounter = { no_onload: true };
+  const trackPageView = () => {
+    if (typeof window.goatcounter.count === "function") {
+      window.goatcounter.count({
+        path: location.pathname + location.search + location.hash,
+      });
+    }
+  };
+  document.addEventListener("DOMContentLoaded", trackPageView);
+  document.addEventListener("turbo:load", trackPageView);
+</script>
+<script
+  data-goatcounter="https://analytics.chobble.com/count"
+  async
+  src="https://analytics.chobble.com/count.js"
+></script>
+
+<link
+  rel="preload"
+  href="/assets/fonts/Bayland.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
