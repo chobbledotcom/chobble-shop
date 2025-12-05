@@ -1,14 +1,22 @@
 ---
 title: Static Website Build
-featured: true
-price: From £400
 categories:
   - categories/web-development.md
+options:
+  - name: Basic templated website (you sort domain, content, images, email)
+    max_quantity: 1
+    unit_price: 400
+  - name: Standard website (you sort content and images)
+    max_quantity: 1
+    unit_price: 800
+  - name: I do everything
+    max_quantity: 1
+    unit_price: 2000
+price: From £400
 ---
-
 I can build you a website based on the **Chobble Template**, an open source template for small business websites. You can read all about it at [example.chobble.com](https://example.chobble.com).
 
-The price will depend on how much work is involved and how much of that work you want to handle yourself.
+The price will depend on how much work is involved and how much of that work you want to handle yourself. I've set three prices on this page for three levels of complexity, but you can use [my price calculator](https://chobble.com/price-calculator/) for a more bespoke quote.
 
 ## Cheap web development
 
