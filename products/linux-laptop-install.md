@@ -3,12 +3,12 @@ title: Linux Laptop Install
 categories:
   - categories/tech-consulting.md
 options:
-  - name: Ubuntu Linux Install (you handle backups and apps)
+  - name: Ubuntu Linux install (no backup or restores)
     max_quantity: 5
     unit_price: 200
-  - name: "Ubunut "
-    max_quantity: 10
-    unit_price: 0
+  - name: Ubuntu Linux install, with file backup and restore
+    max_quantity: 4
+    unit_price: 600
 ---
 If you've got a laptop which Windows 11 doesn't support, or if you'd just like to switch to an operating system that treats you nicely, you might be interested in my Linux laptop upgrade service.
 
