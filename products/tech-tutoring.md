@@ -6,6 +6,7 @@ options:
   - name: 2x Tutoring Hours
     max_quantity: 1
     unit_price: 100
+price: £50 per hour (min 2)
 ---
 If you're in North Manchester, I can come to your home for tech tutoring at £50 per hour (min 2 hours). For this price I will work with you on any problem you might have - whether that's learning to make a website, to upgrade your home computer, to set up a smart home - whatever.
 
