@@ -9,4 +9,4 @@ permalink: /{{ strings.product_permalink_dir }}/
 ---
 # Web & Software Products
 
-I can help out with much more than the things listed below, but these are the ones that are really easily priced. For more complex jobs, [contact me](/contact/).
+I can help out with much more than the things listed below, but these are the ones that are really easily priced. For more complex jobs, [contact me](/contact/) or check out [the full services list on my main website](https://chobble.com/services/).
