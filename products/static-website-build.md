@@ -2,6 +2,7 @@
 title: Static Website Build
 categories:
   - categories/web-development.md
+  - categories/open-source-software.md
 options:
   - name: Basic templated website (you sort domain, content, images, email)
     max_quantity: 1
