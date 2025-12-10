@@ -1,12 +1,11 @@
 {
-  inputs.nixpkgs.url = "nixpkgs";
-
-  outputs =
-    { self, nixpkgs }:
+  outputs = { self }:
+    let
+      pkgs = import <nixpkgs> { };
+    in
     {
-      devShells.x86_64-linux.default =
+      devShells.${pkgs.system}.default =
         let
-          pkgs = import nixpkgs { system = "x86_64-linux"; };
           pnpmScripts = pkgs.symlinkJoin {
             name = "pnpm-scripts";
             paths = map (cmd: pkgs.writeShellScriptBin cmd "pnpm run ${cmd}") [
