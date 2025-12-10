@@ -3,7 +3,7 @@ name: Add SKUs to Products
 on:
   push:
     paths:
-      - "products/**"
+      - "products/*.md"
   workflow_dispatch:
 
 permissions:

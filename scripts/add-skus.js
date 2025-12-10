@@ -101,8 +101,12 @@ const stringifyFrontmatter = (data, body) => {
     if (Array.isArray(value)) {
       yaml += `${key}:\n`;
       for (const item of value) {
-        if (typeof item === "object") {
+        if (typeof item === "object" && item !== null) {
           const entries = Object.entries(item);
+          if (entries.length === 0) {
+            // Skip empty objects
+            continue;
+          }
           yaml += `  - ${entries[0][0]}: ${formatValue(entries[0][1])}\n`;
           for (let i = 1; i < entries.length; i++) {
             yaml += `    ${entries[i][0]}: ${formatValue(entries[i][1])}\n`;
