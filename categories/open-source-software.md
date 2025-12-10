@@ -1,5 +1,5 @@
 ---
-title: Open Source Software Hosting
+title: Open Source Software
 featured: true
 ---
-# Open Source Software Hosting
+# Open Source Software
