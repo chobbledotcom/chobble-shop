@@ -1,15 +1,14 @@
 ---
 title: Linux Laptop Install
 categories:
+  - categories/tech-consulting.md
 options:
   - name: Ubuntu Linux install (no backup or restores)
     max_quantity: 5
     unit_price: 200
-    sku: OUBPEP
   - name: Ubuntu Linux install with backup & restore
     max_quantity: 4
     unit_price: 600
-    sku: IC9ZFW
 price: From £200
 ---
 If you've got a laptop which Windows 11 doesn't support, or if you'd just like to switch to an operating system that treats you nicely, you might be interested in my Linux laptop upgrade service.
