@@ -1,11 +1,11 @@
 ---
 title: SEO Audit
 categories:
-  - categories/seo-marketing.md
 options:
   - name: SEO Audit
     max_quantity: 1
     unit_price: 200
+    sku: 0WEJK4
 price: £200
 ---
 I'll analyse your site and give you a report, written in plain English, explaining how you can improve its content.
