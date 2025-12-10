@@ -3,7 +3,7 @@ name: Add SKUs to Products
 on:
   push:
     paths:
-      - "src/products/**"
+      - "products/**"
   workflow_dispatch:
 
 permissions:
@@ -25,16 +25,8 @@ jobs:
         with:
           node-version: 24
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: latest
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
       - name: Add SKUs to products
-        run: node src/_lib/add-skus.js
+        run: node scripts/add-skus.js
 
       - name: Check for changes
         id: changes
@@ -50,12 +42,12 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/products/
+          git add products/
           git commit -m "Add SKUs to product options"
           git push
 
       - name: Trigger build workflow
         if: steps.changes.outputs.has_changes == 'true' && env.PAT_TOKEN != ''
-        run: gh workflow run build-and-deploy.yaml
+        run: gh workflow run build-and-deploy.yml
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
