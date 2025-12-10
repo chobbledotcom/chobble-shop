@@ -1,11 +1,11 @@
 ---
 title: Device tracker hosting
 categories:
-  - categories/web-development.md
 options:
   - name: 12 Months
     max_quantity: 1
     unit_price: 100
+    sku: FJSTNU
 price: £100 per year
 header_text: Traccar GPS Tracker Server
 ---
