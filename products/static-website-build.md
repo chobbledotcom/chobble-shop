@@ -1,17 +1,19 @@
 ---
 title: Static Website Build
 categories:
-  - categories/web-development.md
 options:
   - name: Basic templated website (you sort domain, content, images, email)
     max_quantity: 1
     unit_price: 400
+    sku: SFIG2J
   - name: Standard website (you sort content and images)
     max_quantity: 1
     unit_price: 800
+    sku: WA1BZG
   - name: I do everything
     max_quantity: 1
     unit_price: 2000
+    sku: 7D7XVI
 price: From £400
 ---
 I can build you a website based on the **Chobble Template**, an open source template for small business websites. You can read all about it at [example.chobble.com](https://example.chobble.com).
