@@ -1,6 +1,7 @@
 ---
 title: Web Hosting
 categories:
+  - categories/web-development.md
 options:
   - name: £10 per month (x12 months)
     max_quantity: 1

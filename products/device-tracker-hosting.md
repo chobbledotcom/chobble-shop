@@ -1,6 +1,7 @@
 ---
 title: Device tracker hosting
 categories:
+  - categories/open-source-software.md
 options:
   - name: 12 Months
     max_quantity: 1

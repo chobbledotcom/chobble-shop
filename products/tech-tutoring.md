@@ -1,6 +1,7 @@
 ---
 title: Tech Tutoring
 categories:
+  - categories/tech-consulting.md
 options:
   - name: 2x Tutoring Hours
     max_quantity: 1

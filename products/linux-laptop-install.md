@@ -1,6 +1,7 @@
 ---
 title: Linux Laptop Install
 categories:
+  - categories/open-source-software.md
 options:
   - name: Ubuntu Linux install (no backup or restores)
     max_quantity: 5

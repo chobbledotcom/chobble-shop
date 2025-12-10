@@ -1,6 +1,7 @@
 ---
 title: Content Strategy Consultation
 categories:
+  - categories/seo-marketing.md
 options:
   - name: Content Audit
     max_quantity: 1

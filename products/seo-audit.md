@@ -1,6 +1,7 @@
 ---
 title: SEO Audit
 categories:
+  - categories/seo-marketing.md
 options:
   - name: SEO Audit
     max_quantity: 1

@@ -42,15 +42,20 @@ const parseYaml = (yamlStr) => {
     // Skip empty lines
     if (!line.trim()) continue;
 
-    // Array item with object properties
+    // Array item
     if (line.match(/^  - /)) {
       if (currentArray) {
-        currentObject = {};
-        currentArray.push(currentObject);
         const content = line.replace(/^  - /, "");
+        // Check if this is an object property (has `: ` separator)
         if (content.includes(": ")) {
+          currentObject = {};
+          currentArray.push(currentObject);
           const [key, ...valueParts] = content.split(": ");
           currentObject[key.trim()] = parseValue(valueParts.join(": "));
+        } else {
+          // Simple string array item (e.g., "- categories/web-development.md")
+          currentArray.push(content);
+          currentObject = null;
         }
       }
     }
@@ -66,7 +71,7 @@ const parseYaml = (yamlStr) => {
         currentKey = line.slice(0, colonIndex).trim();
         const value = line.slice(colonIndex + 1).trim();
         if (value === "") {
-          // Could be an array or object
+          // Could be an array or object - start a new array
           result[currentKey] = [];
           currentArray = result[currentKey];
           currentObject = null;
