@@ -11,6 +11,7 @@
 	"checkout_api_url": "https://auto.chobble.com/webhooks/flows/253d684b-452a-44db-82df-660968d6012e/sync",
 	"stripe_publishable_key": "pk_live_51SQfL6RaS2zerwv0eAc9842mD7nJOfJ86qX80Zk06j63pNUX3XLbQDenvlABx0Dng4ATbe4uDDhfkVN7Ngc9oZme00KY8u1lAJ",
 	"paypal_email": null,
+	"cart_mode": "stripe",
 	"products": {
 		"product_thumb_widths": "240,480,640",
 		"product_thumb_sizes": "224px",
