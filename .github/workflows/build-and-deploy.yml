@@ -54,6 +54,8 @@ jobs:
             --verbose \
             --exclude=".*" \
             --exclude="README.md" \
+            --exclude="package.json" \
+            --exclude="pnpm-lock.yaml" \
             source/ \
             combined/src/
 
