@@ -5,6 +5,7 @@ meta_description: Thank you for your order
 meta_title: Order Complete
 no_index: true
 layout: checkout-complete.html
+permalink: "/order-complete/"
 ---
 
 Your payment has been received. Thank you for your order!
