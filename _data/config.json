@@ -8,7 +8,7 @@
 	"externalLinksTargetBlank": false,
 	"template_repo_url": "https://github.com/chobbledotcom/chobble-template",
 	"chobble_link": "https://chobble.com/services/chobble-template/",
-	"checkout_api_url": "https://auto.chobble.com/webhooks/flows/253d684b-452a-44db-82df-660968d6012e/sync",
+	"checkout_api_url": "https://stripe-checkout.chobble.com/api/stripe/create-session",
 	"paypal_email": null,
 	"cart_mode": "stripe",
 	"products": {
